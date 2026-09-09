@@ -1,0 +1,21 @@
+public class pgm3{
+    public static void main(String[] args){
+        String str ="KodNest Technologies";
+        System.out.println(str.toLowerCase());
+        System.out.println(str.toUpperCase());
+        System.out.print(str.charAt(3));
+        System.out.println(str.contains("Nest"));
+        System.out.println(str.contains("nest"));
+        System.out.println(str.startsWith("Kod"));
+        System.out.println(str.startsWith("Kod"));
+        System.out.println(str.endsWith("ies"));
+        System.out.println(str.endsWith("Nest"));
+        System.out.println(str.indexOf('K'));
+        System.out.println(str.indexOf('e'));
+        System.out.println(str.length());
+        System.out.println(str.lastIndexOf("Nest"));
+        System.out.println(str.substring(5));
+        System.out.println(str.substring(5,14));
+        System.out.println(str.replace('e','a'));
+    }
+}
